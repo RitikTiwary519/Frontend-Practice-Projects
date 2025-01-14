@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    font-family: monospace;
+    font-size: xx-large;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('image.jpg'); /* Ensure the path to the image is correct */
+    background:no repeat;
+
+    background-size: cover; /* Optional, for a full background */
+}
+
+.clock-container {
+    font-size: 6.5rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(206, 229, 236, 0.5); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Increase blur for a stronger effect */
+    height: 100px;
+    width: 500px;
+    color: white; /* Text color */
+}
+
+.clock-container .clock {
+    font-style: inherit;
+        font-size: 6rem; /* Or any larger value */
+
+    
+}
