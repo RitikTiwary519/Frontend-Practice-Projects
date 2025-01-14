@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(world.jpg);
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;  
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.myH1{
+    display: flex;
+    flex-direction: column;
+}
+
+.myH1 .clock{
+    width: 500px;
+    height: 70px;
+    border-radius: 250px;
+    display: flex;
+    background-color: rgba(191, 236, 236, 0.6); /* Add transparency */
+    backdrop-filter: blur(10px); /* Ensure blur value is significant */
+    align-items: center;
+    font-family: monospace;
+    font-size: 50px;
+    justify-content: center;
+    
+}
+
+.myH1 .button{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    font-family: monospace;
+    font-size: large;
+    padding-top: 10px;
+    .Start{
+        border-radius: 40px;
+        width:80px;
+        background-color: rgb(177, 233, 91);
+    }
+    .Stop{
+        width:80px;
+        border-radius: 40px;
+        background-color: rgb(212, 45, 45);
+    }
+    .Reset{
+        width:80px;
+        border-radius: 40px;
+        background-color: rgb(142, 142, 231);
+    }
+
+}
+
